@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo/cat.svg">
+
+    <!-- Modern normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -14,37 +25,204 @@
 <body>
     <header class="header">
         <div class="container header-container">
-            <img src="./img/cat.svg" alt="cat" class="logo">
+            <img src="./img/logo/cat.svg" alt="cat" class="logo">
             <h1 class="label">Котодім</h1>
         </div>
     </header>
     <main class="main">
         <div class="container ">
-            <div class="hero">
+            <ul class="posts">
+                <li class="post">
+                    <a href="#" class="post-link">
+                        <img src="./img/hero/picture1.png" alt="cat" class="post-img">
+                        <div class="overlay">
+                            <h2 class="post-subtitle">Коти та їхні чудові навички: від полювання до загадкових
+                                здібностей</h2>
+                        </div>
+                    </a>
+                </li>
+                <li class="post">
+                    <a href="#" class="post-link">
+                        <img src="./img/hero/picture2.png" alt="cat" class="post-img">
+                        <div class="overlay">
+                            <h2 class="post-subtitle">Коти та їхні чудові навички: від полювання до загадкових
+                                здібностей</h2>
+                        </div>
+                    </a>
+                </li>
+
+                <li class="post">
+                    <a href="#" class="post-link">
+                        <img src="./img/hero/picture3.png" alt="cat" class="post-img">
+                        <div class="overlay">
+                            <h2 class="post-subtitle">Коти та їхні чудові навички: від полювання до загадкових
+                                здібностей</h2>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- articles  -->
+
+            <section class="longread">
+                <ul class="blog">
+                    <li class="blog-item">
+                        <a href="#" class="blog-link">
+                            <img src="./img/articles/1.png" alt="blog-img" class="blog-img">
+                            <div class="wrapper">
+                                <h3 class="blog-title">Найпопулярніші породи котів: який кіт підходить вам?</h3>
+                                <p class="blog-text">Вивчіть найпопулярніші породи котів і їхні особливості, щоб зробити
+                                    інформований вибір, який підходить саме вам.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="blog-link">
+                            <img src="./img/articles/2.png" alt="blog-img" class="blog-img">
+                            <div class="wrapper">
+                                <h3 class="blog-title">Як піклуватися про вашого пухнастого друга: догляд за котом</h3>
+                                <p class="blog-text">Дізнайтеся про основні аспекти догляду за котом, включаючи
+                                    годування, гігієну та взаємодію з вашим улюбленцем.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="blog-link">
+                            <img src="./img/articles/4.png" alt="blog-img" class="blog-img">
+                            <div class="wrapper">
+                                <h3 class="blog-title">Забавні факти про котів, які вас здивують</h3>
+                                <p class="blog-text">Веселі та цікаві факти про котів, які піднімуть вам настрій та
+                                    розкажуть про їхні унікальність.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="blog-item">
+                        <a href="#" class="blog-link">
+                            <img src="./img/articles/3.png" alt="blog-img" class="blog-img">
+                            <div class="wrapper">
+                                <h3 class="blog-title">Історія та культурна значущість котів в усьому світ</h3>
+                                <p class="blog-text">Вивчіть, як коти впливали на культури різних народів та дізнайтеся
+                                    історію спільного життя людей і котів.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <!-- socials  -->
+
+                <div class="socials">
+                    <h2 class="socials-title">Соцмережі</h2>
+                    <ul class="socials-list">
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/instagram.svg" alt="instagram" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/facebook.svg" alt="facebook" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/youtube.svg" alt="youtube" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/tiktok.svg" alt="tiktok" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/github.svg" alt="github" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                        <li class="socials-item">
+                            <a href="#" class="socials-link">
+                                <img src="./img/socials/twitter.svg" alt="twitter" class="socials-icon">
+                                <p class="socials-subscribers">230.000</p>
+                                </img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!-- video  -->
+
+                <div class="video">
+                    <h2 class="video-title">Відео з пухнастиками</h2>
+                    <img src="./img/picture.png" alt="video">
+                </div>
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+            <!-- footer  -->
+
+
+
+            <!-- //////////////////////////////// -->
+            <!-- <div class="hero">
                 <div class="hero-cats-skills">
-                    <img src="./img/picture 1.png" alt="hands with gray cat" class="hero-img" width="552">
+                    <img src="./img/hero/picture1.png" alt="hands with gray cat" class="hero-img" width="552">
                     <div class="hero-thumb skills">
                         <p class="hero-text">Коти та їхні чудові навички: від полювання до загадкових здібностей</p>
                     </div>
                 </div>
                 <div class="hero-cats-art">
-                    <img src="./img/picture 2.png" alt="girl with cat are playing" class="hero-img">
+                    <img src="./img/hero/picture2.png" alt="girl with cat are playing" class="hero-img">
                     <div class="hero-thumb">
                         <p class="hero-text">Коти в літературі та мистецтві: від Егіпетських богів до сучасних майстрів
                         </p>
                     </div>
                 </div>
                 <div class="hero-cats-breed">
-                    <img src="./img/picture 3.png" alt="girl holding a cat" class="hero-img">
+                    <img src="./img/hero/picture3.png" alt="girl holding a cat" class="hero-img">
                     <div class="hero-thumb">
                         <p class="hero-text">Котячі породи для активних власників: як вибрати компаньйона</p>
                     </div>
                 </div>
-            </div>
+
+            </div> -->
+
+
+
+
+
         </div>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer ">
+        <div class="container footer-container">
+            <img src="./img/logo/cat.svg" alt="logo" class="logo">
+            <h2 class="label">Котодім</h2>
+        </div>
+
+    </footer>
 
 
 
